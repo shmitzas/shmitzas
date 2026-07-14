@@ -36,6 +36,6 @@
 
 <div align="center">
 
-**[Browse all repositories sorted by stars →](https://github.com/shmitzas?tab=repositories&sort=stars)**
+**[Browse all repositories sorted by stars →](https://github.com/shmitzas?tab=repositories&q=&type=source&language=&sort=stargazers)**
 
 </div>
