@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Shmitzas — Full-stack developer. Building Rampage.lt — Lithuanian CS2 community platform.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Shmitzas — Full-stack developer building Rampage.lt. @shmitzas · Lithuania. Backend, automation, web, game dev, sys admin.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f1621"/>
@@ -20,24 +20,46 @@
   </defs>
 
   <!-- Card surface -->
-  <rect width="1200" height="260" rx="24" ry="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" ry="24" fill="url(#bg)"/>
 
   <!-- Ambient glows -->
-  <circle cx="200" cy="130" r="260" fill="url(#glowCyan)"/>
-  <circle cx="1000" cy="130" r="260" fill="url(#glowCyan)"/>
-  <circle cx="600" cy="130" r="320" fill="url(#glowGreen)"/>
+  <circle cx="200" cy="170" r="300" fill="url(#glowCyan)"/>
+  <circle cx="1000" cy="170" r="300" fill="url(#glowCyan)"/>
+  <circle cx="600" cy="170" r="360" fill="url(#glowGreen)"/>
 
   <!-- Subtle border -->
-  <rect x="0.5" y="0.5" width="1199" height="259" rx="24" ry="24"
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="24" ry="24"
         fill="none" stroke="#0dcaf0" stroke-opacity="0.28" stroke-width="1"/>
 
-  <!-- Top accent bar -->
-  <rect x="0" y="0" width="1200" height="3" fill="url(#line)"/>
+  <!-- Top accent bar (animated pulse) -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#line)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorative dots -->
+  <circle cx="40" cy="40" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="40" r="2" fill="#0dcaf0" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1160" cy="40" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1140" cy="40" r="2" fill="#0dcaf0" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="300" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1160" cy="300" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Title -->
   <text x="600" y="115" text-anchor="middle"
         font-family="'Roboto','Segoe UI',Arial,sans-serif"
-        font-size="88" font-weight="900" fill="#ffffff" letter-spacing="8">SHMITZAS</text>
+        font-size="88" font-weight="900" fill="#ffffff" letter-spacing="8">SHMITZ</text>
 
   <!-- Divider -->
   <rect x="500" y="140" width="200" height="2" fill="url(#line)"/>
@@ -50,5 +72,35 @@
   <!-- Sub-tagline -->
   <text x="600" y="215" text-anchor="middle"
         font-family="'Roboto','Segoe UI',Arial,sans-serif"
-        font-size="18" font-weight="400" fill="#ffffff" opacity="0.65">Building Rampage.lt — Lithuanian CS2 community platform</text>
+        font-size="17" font-weight="400" fill="#ffffff" opacity="0.6">Main Dev of Rampage.lt</text>
+
+  <!-- Skill pills at y=275. 5 pills × 150 wide, gap 20. Total = 830. Start x = 185. -->
+  <g transform="translate(185, 275)" font-family="'Roboto',Arial,sans-serif" font-size="14" font-weight="700" fill="#0dcaf0" letter-spacing="1.5">
+    <g>
+      <rect x="0" y="-20" width="150" height="40" rx="20"
+            fill="#0dcaf0" fill-opacity="0.10" stroke="#0dcaf0" stroke-opacity="0.35"/>
+      <text x="75" y="6" text-anchor="middle">BACKEND</text>
+    </g>
+    <g transform="translate(170, 0)">
+      <rect x="0" y="-20" width="150" height="40" rx="20"
+            fill="#0dcaf0" fill-opacity="0.10" stroke="#0dcaf0" stroke-opacity="0.35"/>
+      <text x="75" y="6" text-anchor="middle">AUTOMATION</text>
+    </g>
+    <g transform="translate(340, 0)">
+      <rect x="0" y="-20" width="150" height="40" rx="20"
+            fill="#0dcaf0" fill-opacity="0.10" stroke="#0dcaf0" stroke-opacity="0.35"/>
+      <text x="75" y="6" text-anchor="middle">WEB</text>
+    </g>
+    <g transform="translate(510, 0)">
+      <rect x="0" y="-20" width="150" height="40" rx="20"
+            fill="#0dcaf0" fill-opacity="0.10" stroke="#0dcaf0" stroke-opacity="0.35"/>
+      <text x="75" y="6" text-anchor="middle">GAME DEV</text>
+    </g>
+    <g transform="translate(680, 0)">
+      <rect x="0" y="-20" width="150" height="40" rx="20"
+            fill="#0dcaf0" fill-opacity="0.10" stroke="#0dcaf0" stroke-opacity="0.35"/>
+      <text x="75" y="6" text-anchor="middle">SYS ADMIN</text>
+    </g>
+  </g>
 </svg>
+

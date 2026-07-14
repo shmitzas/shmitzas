@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Featured project: Rampage.lt — Lithuania's biggest CS2 community platform. Solo full-stack build. 10 servers, 2,700+ lifetime players, 2,000+ Discord members. Live in production.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1621"/>
+      <stop offset="100%" stop-color="#060912"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0dcaf0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0dcaf0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0dcaf0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#0dcaf0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0dcaf0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#19ee19" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#19ee19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Card surface -->
+  <rect width="1200" height="340" rx="24" ry="24" fill="url(#bg)"/>
+
+  <!-- Ambient glows -->
+  <circle cx="200" cy="170" r="300" fill="url(#glowCyan)"/>
+  <circle cx="1000" cy="170" r="300" fill="url(#glowCyan)"/>
+  <circle cx="600" cy="170" r="360" fill="url(#glowGreen)"/>
+
+  <!-- Subtle border -->
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="24" ry="24"
+        fill="none" stroke="#0dcaf0" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Top accent bar (animated pulse) -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#line)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorative dots -->
+  <circle cx="40" cy="40" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="40" r="2" fill="#0dcaf0" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="300" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1160" cy="300" r="3" fill="#0dcaf0" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Section label (top-left, asymmetric) -->
+  <text x="60" y="46" text-anchor="start"
+        font-family="'Roboto',Arial,sans-serif"
+        font-size="12" font-weight="700" fill="#0dcaf0" letter-spacing="4">FEATURED PROJECT</text>
+
+  <!-- LIVE status indicator (top-right, asymmetric counterweight) -->
+  <g transform="translate(1030, 32)">
+    <rect x="0" y="0" width="110" height="26" rx="13"
+          fill="#19ee19" fill-opacity="0.08" stroke="#19ee19" stroke-opacity="0.35"/>
+    <circle cx="16" cy="13" r="4" fill="#19ee19">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="62" y="18" text-anchor="middle"
+          font-family="'Roboto',Arial,sans-serif"
+          font-size="11" font-weight="700" fill="#19ee19" letter-spacing="1.8">LIVE</text>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="108" text-anchor="middle"
+        font-family="'Roboto','Segoe UI',Arial,sans-serif"
+        font-size="54" font-weight="900" fill="#ffffff" letter-spacing="4">Rampage.lt</text>
+
+  <!-- Tagline -->
+  <text x="600" y="146" text-anchor="middle"
+        font-family="'Roboto','Segoe UI',Arial,sans-serif"
+        font-size="18" font-weight="400" fill="#ffffff" opacity="0.72">Lithuania's biggest CS2 community servers network</text>
+
+  <!-- 3 stat cards centered. Card 200×100, gap 30. Total = 3·200 + 2·30 = 660. Start x = 270. -->
+  <g font-family="'Roboto','Segoe UI',Arial,sans-serif">
+    <g transform="translate(155, 178)">
+      <rect width="200" height="100" rx="16"
+            fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">10</text>
+      <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">CS2 SERVERS</text>
+    </g>
+    <g transform="translate(385, 178)">
+      <rect width="200" height="100" rx="16"
+            fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">8</text>
+      <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">UNIQUE GAME MODES</text>
+    </g>
+    <g transform="translate(615, 178)">
+      <rect width="200" height="100" rx="16"
+            fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">2.7K+</text>
+      <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">PLAYERS</text>
+    </g>
+    <g transform="translate(845, 178)">
+      <rect width="200" height="100" rx="16"
+            fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">2K+</text>
+      <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">COMMUNITY MEMBERS</text>
+    </g>
+  </g>
+
+  <!-- CTA -->
+  <text x="600" y="315" text-anchor="middle"
+        font-family="'Roboto','Segoe UI',Arial,sans-serif"
+        font-size="14" font-weight="600" fill="#0dcaf0" letter-spacing="1">Visit rampage.lt  →</text>
+</svg>
+

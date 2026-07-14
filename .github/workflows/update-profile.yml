@@ -1,0 +1,47 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/update-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh stars.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update-stars.py
+
+      - name: Refresh activity.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update-activity.py
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain stars.svg activity.svg)" ]; then
+            git add stars.svg activity.svg
+            git commit -m "chore: refresh profile stats"
+            git push
+          else
+            echo "No profile changes"
+          fi
