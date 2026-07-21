@@ -82,13 +82,13 @@
     <g transform="translate(155, 178)">
       <rect width="200" height="100" rx="16"
             fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
-      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">10</text>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">11</text>
       <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">CS2 SERVERS</text>
     </g>
     <g transform="translate(385, 178)">
       <rect width="200" height="100" rx="16"
             fill="#0dcaf0" fill-opacity="0.06" stroke="#0dcaf0" stroke-opacity="0.28"/>
-      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">8</text>
+      <text x="100" y="58" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff">9</text>
       <text x="100" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#0dcaf0" letter-spacing="2.5">UNIQUE GAME MODES</text>
     </g>
     <g transform="translate(615, 178)">
