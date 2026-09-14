@@ -64,7 +64,7 @@
             fill="#0dcaf0" fill-opacity="0.05"
             stroke="#0dcaf0" stroke-opacity="0.22"/>
       <text id="stars-count" x="200" y="60" text-anchor="middle"
-            font-size="52" font-weight="900" fill="#ffffff">19</text>
+            font-size="52" font-weight="900" fill="#ffffff">20</text>
       <text x="200" y="88" text-anchor="middle"
             font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="3">TOTAL STARS RECEIVED</text>
     </g>
@@ -75,7 +75,7 @@
             fill="#0dcaf0" fill-opacity="0.05"
             stroke="#0dcaf0" stroke-opacity="0.22"/>
       <text id="repos-count" x="200" y="60" text-anchor="middle"
-            font-size="52" font-weight="900" fill="#ffffff">5</text>
+            font-size="52" font-weight="900" fill="#ffffff">6</text>
       <text x="200" y="88" text-anchor="middle"
             font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="3">REPOSITORIES STARRED</text>
     </g>
