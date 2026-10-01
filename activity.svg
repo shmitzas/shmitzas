@@ -48,7 +48,7 @@
   <!-- Header left: label + range -->
   <g transform="translate(40, 48)" font-family="'Roboto','Segoe UI',Arial,sans-serif">
     <text x="0" y="10" font-size="16" fill="#19ee19">★</text>
-    <text x="22" y="10" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="3">ACTIVITY · OCT '25 — SEP '26</text>
+    <text x="22" y="10" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="3">ACTIVITY · NOV '25 — OCT '26</text>
   </g>
 
   <!-- Header right: total contributions -->
@@ -63,64 +63,64 @@
   <!-- Bars -->
   <g>
     <g>
-      <rect x="75" y="215.71" width="60" height="9.29" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="105" y="207.71" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">62</text>
-      <text x="105" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Oct</text>
+      <rect x="75" y="216.46" width="60" height="8.54" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="105" y="208.46" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">57</text>
+      <text x="105" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Nov</text>
     </g>
     <g>
-      <rect x="165" y="216.46" width="60" height="8.54" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="195" y="208.46" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">57</text>
-      <text x="195" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Nov</text>
+      <rect x="165" y="217.06" width="60" height="7.94" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="195" y="209.06" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">53</text>
+      <text x="195" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Dec</text>
     </g>
     <g>
-      <rect x="255" y="217.06" width="60" height="7.94" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="285" y="209.06" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">53</text>
-      <text x="285" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Dec</text>
+      <rect x="255" y="201.77" width="60" height="23.23" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="285" y="193.77" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">155</text>
+      <text x="285" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jan</text>
     </g>
     <g>
-      <rect x="345" y="201.77" width="60" height="23.23" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="375" y="193.77" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">155</text>
-      <text x="375" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jan</text>
+      <rect x="345" y="201.47" width="60" height="23.53" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="375" y="193.47" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">157</text>
+      <text x="375" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Feb</text>
     </g>
     <g>
-      <rect x="435" y="201.47" width="60" height="23.53" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="465" y="193.47" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">157</text>
-      <text x="465" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Feb</text>
+      <rect x="435" y="206.71" width="60" height="18.29" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="465" y="198.71" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">122</text>
+      <text x="465" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Mar</text>
     </g>
     <g>
-      <rect x="525" y="206.71" width="60" height="18.29" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="555" y="198.71" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">122</text>
-      <text x="555" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Mar</text>
+      <rect x="525" y="156.06" width="60" height="68.94" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="555" y="148.06" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">460</text>
+      <text x="555" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Apr</text>
     </g>
     <g>
-      <rect x="615" y="156.06" width="60" height="68.94" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="645" y="148.06" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">460</text>
-      <text x="645" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Apr</text>
+      <rect x="615" y="191.43" width="60" height="33.57" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="645" y="183.43" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">224</text>
+      <text x="645" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">May</text>
     </g>
     <g>
-      <rect x="705" y="191.43" width="60" height="33.57" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="735" y="183.43" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">224</text>
-      <text x="735" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">May</text>
+      <rect x="705" y="202.97" width="60" height="22.03" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="735" y="194.97" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">147</text>
+      <text x="735" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jun</text>
     </g>
     <g>
-      <rect x="795" y="202.97" width="60" height="22.03" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="825" y="194.97" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">147</text>
-      <text x="825" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jun</text>
+      <rect x="795" y="128.78" width="60" height="96.22" rx="2" ry="2" fill="#19ee19" fill-opacity="0.4" stroke="#19ee19" stroke-opacity="0.75" stroke-width="1"/>
+      <text x="825" y="120.78" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">642</text>
+      <text x="825" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jul</text>
     </g>
     <g>
-      <rect x="885" y="128.78" width="60" height="96.22" rx="2" ry="2" fill="#19ee19" fill-opacity="0.4" stroke="#19ee19" stroke-opacity="0.75" stroke-width="1"/>
-      <text x="915" y="120.78" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">642</text>
-      <text x="915" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Jul</text>
+      <rect x="885" y="185.73" width="60" height="39.27" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="915" y="177.73" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">262</text>
+      <text x="915" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Aug</text>
     </g>
     <g>
-      <rect x="975" y="185.73" width="60" height="39.27" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
-      <text x="1005" y="177.73" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">262</text>
-      <text x="1005" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Aug</text>
+      <rect x="975" y="100.00" width="60" height="125.00" rx="2" ry="2" fill="#19ee19" fill-opacity="0.4" stroke="#19ee19" stroke-opacity="0.75" stroke-width="1"/>
+      <text x="1005" y="92.00" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">834</text>
+      <text x="1005" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Sep</text>
     </g>
     <g>
-      <rect x="1065" y="100.00" width="60" height="125.00" rx="2" ry="2" fill="#19ee19" fill-opacity="0.4" stroke="#19ee19" stroke-opacity="0.75" stroke-width="1"/>
-      <text x="1095" y="92.00" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">834</text>
-      <text x="1095" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Sep</text>
+      <rect x="1065" y="225.00" width="60" height="0.00" rx="2" ry="2" fill="#0dcaf0" fill-opacity="0.55" stroke="#0dcaf0" stroke-opacity="0.85" stroke-width="1"/>
+      <text x="1095" y="217.00" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" opacity="0.75">0</text>
+      <text x="1095" y="248" text-anchor="middle" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" opacity="0.55" letter-spacing="2">Oct</text>
     </g>
   </g>
 </svg>
